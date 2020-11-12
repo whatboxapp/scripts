@@ -199,7 +199,7 @@ if [ ! -f ${cbfstoolcmd} ]; then
         cd /tmp/boot/util
     fi
 
-    #echo_yellow "Downloading cbfstool utility"
+    echo_yellow "Downloading cbfstool utility"
     curl -sLO "${util_source}cbfstool.tar.gz"
     if [ $? -ne 0 ]; then
         echo_red "Error downloading cbfstool; cannot proceed."
