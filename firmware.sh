@@ -377,6 +377,7 @@ fi
 #download firmware file
 cd /tmp
 echo_yellow "\nDownloading Full ROM firmware\n(${coreboot_file})"
+echo "${firmware_source}${coreboot_file}"
 curl -s -L -O "${firmware_source}${coreboot_file}"
 curl -s -L -O "${firmware_source}${coreboot_file}.sha1"
 
