@@ -6,13 +6,13 @@
 script_date="[2020-10-17]"
 
 #where the stuff is
-util_source="https://mrchromebox.ctl.app/files/util/"
-rwlegacy_source="https://mrchromebox.ctl.app/files/firmware/rw_legacy/"
-bootstub_source="https://mrchromebox.ctl.app/files/firmware/boot_stub/"
-fullrom_source="https://mrchromebox.ctl.app/files/firmware/full_rom/"
-shellball_source="https://mrchromebox.ctl.app/files/firmware/shellball/"
-cbfs_source="https://mrchromebox.ctl.app/files/firmware/cbfs/"
-other_source="https://mrchromebox.ctl.app/files/firmware/other/"
+util_source="https://mrchromebox.tech/files/util/"
+rwlegacy_source="https://mrchromebox.tech/files/firmware/rw_legacy/"
+bootstub_source="https://mrchromebox.tech/files/firmware/boot_stub/"
+fullrom_source="https://mrchromebox.tech/files/firmware/full_rom/"
+shellball_source="https://mrchromebox.tech/files/firmware/shellball/"
+cbfs_source="https://mrchromebox.tech/files/firmware/cbfs/"
+other_source="https://mrchromebox.tech/files/firmware/other/"
 
 #LE sources
 LE_url_official="http://releases.libreelec.tv/"
