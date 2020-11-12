@@ -31,8 +31,10 @@ echo -e "\nDownloading supporting files..."
 rm -rf firmware.sh >/dev/null 2>&1
 rm -rf functions.sh >/dev/null 2>&1
 rm -rf sources.sh >/dev/null 2>&1
+echo ${script_url}firmware.sh 
 curl -sLO ${script_url}firmware.sh
 rc0=$?
+echo  ${script_url}functions.sh
 curl -sLO ${script_url}functions.sh
 rc1=$?
 curl -sLO ${script_url}sources.sh
