@@ -11,7 +11,7 @@
 #
 
 #where the stuff is
-script_url="https://raw.githubusercontent.com/MrChromebox/scripts/master/"
+script_url="https://rawg.ctl.app/MrChromebox/scripts/master/"
 
 #set working dir
 if cat /etc/lsb-release | grep "Chrom" > /dev/null 2>&1; then
